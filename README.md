@@ -1,2 +1,2 @@
-# scraping_zse
- scraping ZSE stockmarket
+# Scraping ZSE project overview
+scraping ZSE stockmarket
