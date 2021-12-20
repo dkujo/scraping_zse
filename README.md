@@ -10,4 +10,5 @@ This project enables comparison between different stock prices and market index 
 ## Code and Resources Used 
 **Python Version:** 3.9.7 
 **Packages:** pandas, selenium, altair, streamlit, time
+
 **Selenium documentation**: https://www.selenium.dev/selenium/docs/api/py/api.html
