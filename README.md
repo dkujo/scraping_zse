@@ -19,5 +19,5 @@ This project enables comparison between different stock prices and market index 
 **Altair documentation**: https://altair-viz.github.io/
 
 ## Web Scraping
-It is necessary to use Selenium as web-scaper because ZSE website is dynamic website (Beautifulsoup scraper not appropiate).
+It is necessary to use Selenium as web-scaper because ZSE website is dynamic website (Beautifulsoup scraper is not appropiate).
 Before scraping download browser driver that Selenium uses. For Chrome users: https://chromedriver.chromium.org/downloads, Check your Chrome version before download (Help --> About Google Chrome)
