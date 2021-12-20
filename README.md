@@ -20,4 +20,13 @@ This project enables comparison between different stock prices and market index 
 
 ## Web Scraping
 It is necessary to use Selenium as web-scaper because ZSE website is dynamic website (Beautifulsoup scraper is not appropiate).
-Before scraping download browser driver that Selenium uses. For Chrome users: https://chromedriver.chromium.org/downloads, Check your Chrome version before download (Help --> About Google Chrome)
+Before scraping download browser driver that Selenium uses. For Chrome users: https://chromedriver.chromium.org/downloads, Check your Chrome version before download (Help --> About Google Chrome).
+
+## Data presentation
+Tablular data is shown as Pandas dataframe:
+
+
+Individual stock price chart is ploted as line graph:
+
+
+Stock prices and Crobex comparison is ploted as multiple line graph:
