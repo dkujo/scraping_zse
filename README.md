@@ -8,7 +8,8 @@ This project enables comparison between different stock prices and market index 
 * presenting results using Stremlit web app
 
 ## Code and Resources Used 
-**Python Version:** 3.9.7 
+**Python Version:** 3.9.7
+
 **Packages:** pandas, selenium, altair, streamlit, time
 
 **Selenium documentation**: https://www.selenium.dev/selenium/docs/api/py/api.html
