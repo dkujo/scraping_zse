@@ -1,11 +1,11 @@
 # Scraping Zagreb Stock Exchange (ZSE, www.zse.hr): Project Overview
-This project enables comparison between different stock prices and market index (Crobex) that measures stock market returns. ZSE website does not offer this feature directly. User  selects two different stocks while app returns their chart comparison during analysed time period together with Crobex index change. Web app is deployed using Streamlit. Project includes: 
+This app enables comparison between different stock prices and market index (Crobex) that measures stock market returns. ZSE website does not offer this feature directly. User  selects two different stocks while app returns their chart comparison during analysed time period together with Crobex index change. Web app is deployed using Streamlit. Project includes: 
 * using Selenium to scrape data from ZSE website
-* extracting stock symbols and stock ISIN number
-* extracting timeseries data and stock prices into Pandas dataframe
+* extracting all available stock symbols and stock ISIN number
+* extracting timeseries data and selected stock prices into Pandas dataframe
 * extracting Crobex (market index) values into Pandas dataframe
-* ploting and comparing extracted data
-* presenting results using Stremlit web app
+* ploting and comparing extracted data using basic Altair visualization
+* choosing stocks and presenting results using Stremlit web app
 
 ## Code and Resources Used 
 **Python Version:** 3.9.7
@@ -20,7 +20,7 @@ This project enables comparison between different stock prices and market index 
 
 ## Web Scraping
 It is necessary to use Selenium as web-scaper because ZSE website is dynamic website (Beautifulsoup scraper is not appropiate).
-Before scraping download browser driver that Selenium uses. For Chrome users: https://chromedriver.chromium.org/downloads, Check your Chrome version before download (Help --> About Google Chrome).
+Download browser driver that Selenium uses before scraping. For Chrome users: https://chromedriver.chromium.org/downloads. Check your Chrome version before download (Help --> About Google Chrome).
 
 ## Data presentation
 Tablular data is shown as Pandas dataframe:
