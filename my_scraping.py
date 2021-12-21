@@ -1,6 +1,5 @@
 import pandas as pd
 import time
-import matplotlib.pyplot as plt
 
 def scrape_stock_symbols(driver_stock, url_stocks_symbols):
 
@@ -70,27 +69,6 @@ def extract_data_from_df(dates,values):
         y.append(value)   
         
     return x, y
-
-
-def my_plot(x_data, y_data, x_label, y_label, plt_label, plt_title):
-        
-    # TODO: create beautiful (maybe interactive plot)
-    plt.figure(figsize=(13,7))
-    plt.style.use('seaborn-notebook')
-
-    plt.plot(x_data, y_data, label=plt_label, linewidth=1.5)
-
-    plt.xlabel(x_label, fontsize=15, fontstyle='oblique')
-    plt.xticks(fontsize=12, fontstyle='oblique')
-    plt.ylabel(y_label, fontsize=15, fontstyle='oblique')
-    plt.yticks(fontsize=12, fontstyle='oblique')
-
-    plt.title(plt_title, fontsize=15)
-    plt.legend(fontsize=12)
-    plt.tight_layout()
-    plt.grid(True)
-    
-    
     
     
     
