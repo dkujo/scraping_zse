@@ -4,7 +4,7 @@ sys.path.append(r'C:\Users\Domagoj\scraping_zse')
 import pandas as pd
 import streamlit as st
 from datetime import datetime
-from selenium import webdriver # used because ZSE is dynamic website 
+from selenium import webdriver
 import my_scraping
 import altair as alt
 
