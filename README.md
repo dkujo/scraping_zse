@@ -23,7 +23,7 @@ It is necessary to use Selenium as web-scaper because ZSE website is dynamic web
 Download browser driver that Selenium uses before scraping. For Chrome users: https://chromedriver.chromium.org/downloads. Check your Chrome version before download (Help --> About Google Chrome).
 
 ## Data presentation
-Tablular data is shown as Pandas dataframe:
+Tablular data is shown as Pandas dataframe: 
 
 
 Individual stock price chart is ploted as line graph:
