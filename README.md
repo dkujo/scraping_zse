@@ -29,5 +29,5 @@ Tablular data is shown as Pandas dataframe:
 Individual stock price chart is ploted as line graph:
 ![ernt](https://user-images.githubusercontent.com/63582064/146894850-eda3f73c-20a4-4bf1-96ba-04eb5822c000.JPG)
 
-Stock prices and Crobex comparison is ploted as multiple line graph:
+Stock prices and Crobex comparison is ploted as multiple line graph: 
 ![compare](https://user-images.githubusercontent.com/63582064/146895665-a8d41a20-bc4b-4b6f-839b-c617f0f79cfa.JPG)
