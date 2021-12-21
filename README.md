@@ -24,7 +24,7 @@ Download browser driver that Selenium uses before scraping. For Chrome users: ht
 
 ## Data presentation
 Tablular data is shown as Pandas dataframe: 
-
+![tab_ernt](https://user-images.githubusercontent.com/63582064/146895216-e9ebc98b-427c-4cce-8ff2-ee0f7ec0338b.JPG)
 
 Individual stock price chart is ploted as line graph:
 ![ernt](https://user-images.githubusercontent.com/63582064/146894850-eda3f73c-20a4-4bf1-96ba-04eb5822c000.JPG)
