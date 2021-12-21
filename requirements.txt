@@ -1,16 +1,13 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 altair==4.1.0
 appdirs==1.4.4
 argon2-cffi==21.1.0
 arrow @ file:///C:/ci/arrow_1617738834352/work
 astor==0.8.1
 astroid @ file:///C:/ci/astroid_1628063282661/work
-async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
 atomicwrites==1.4.0
 attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
 autopep8 @ file:///tmp/build/80754af9/autopep8_1620866417880/work
 Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 base58==2.1.1
 bcrypt @ file:///C:/ci/bcrypt_1607022693089/work
 binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
@@ -32,7 +29,6 @@ cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 debugpy @ file:///C:/ci/debugpy_1637091961445/work
 decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 docutils @ file:///C:/ci/docutils_1620828264669/work
 entrypoints==0.3
 flake8 @ file:///tmp/build/80754af9/flake8_1620776156532/work
