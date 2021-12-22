@@ -5,7 +5,7 @@ from selenium import webdriver
 import altair as alt
 import time
 
-########################### FEW HELPER FUNCTIONS ###########################
+########################### HELPER FUNCTIONS ###########################
 
 def scrape_stock_symbols(driver_stock, url_stocks_symbols):
 
@@ -85,7 +85,7 @@ url_stocks_symbols = 'https://zse.hr/hr/cijene-vrijednosnih-papira/36?date=2021-
 # specify path to chromedriver.exe (download and save on your computer before)
 option = webdriver.ChromeOptions()
 option.add_argument('headless') # prevent browser from opening
-driver_stock = webdriver.Chrome('C:/Users/Domagoj/scraping_zse/chromedriver.exe',options=option)
+driver_stock = webdriver.Chrome('https://github.com/dkujo/scraping_zse/blob/main/chromedriver.exe',options=option)
 
 stock_tickers_and_ISIN = scrape_stock_symbols(driver_stock, url_stocks_symbols)
 
