@@ -33,7 +33,7 @@ def scrape_stock_symbols(driver_stock, url_stocks_symbols):
     df_stocks_ISIN['merged'] = df_stocks_ISIN['Symbol'] + '   ' + df_stocks_ISIN['ISIN']
     
     # write scraped data into csv file
-    df_stocks_ISIN['merged'].to_csv('stocks_symbols_and_ISIN.csv', index=False)
+    #df_stocks_ISIN['merged'].to_csv('stocks_symbols_and_ISIN.csv', index=False)
     
     return df_stocks_ISIN['merged'] 
 
