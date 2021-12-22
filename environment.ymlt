@@ -3,9 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - numpy-base=1.21.2=py39h0829f74_0
-  - numpydoc=1.1.0=pyhd3eb1b0_1
-  - selenium=3.141.0=py39hb82d6ee_1003
+  - numpy-base=1.21.2
+  - numpydoc=1.1.0
+  - selenium=3.141.0
   - pip:
     - altair==4.1.0
     - pandas==1.3.4
