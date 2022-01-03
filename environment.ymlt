@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - chromium-chromedriver
   - numpy-base=1.21.2
   - numpydoc=1.1.0
   - pip:
