@@ -1,3 +1,4 @@
+name: zse_project
 channels:
     - conda-forge
 dependencies:
