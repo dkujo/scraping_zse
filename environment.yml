@@ -1,4 +1,4 @@
-channles:
+channels:
     - conda-forge
 dependencies:
     - numpy=1.21.4
