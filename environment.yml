@@ -3,10 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - numpy-base=1.21.2
-  - numpydoc=1.1.0
-  - pip:
-    - altair==4.1.0
-    - pandas==1.3.4
-    - streamlit==1.2.0
-    - selenium=3.141.0
+  - numpy-base==1.21.2
+  - numpydoc==1.1.0
+  - altair==4.1.0
+  - pandas==1.3.4
+  - streamlit==1.2.0
+  - selenium==3.141.0
